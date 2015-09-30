@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
     <meta charset="utf-8">
@@ -9,18 +8,62 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>eFile Your Small Claim CA</title>
+    <title>eFile Your Small Claim</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/landing-page.css" rel="stylesheet">
-
+    <!-- Begin Modal Header Scripts --> 
+     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        body { margin-top:20px; }
+.modal-body:not(.two-col) { padding:0px }
+.glyphicon { margin-right:5px; }
+.glyphicon-new-window { margin-left:5px; }
+.modal-body .radio,.modal-body .checkbox {margin-top: 0px;margin-bottom: 0px;}
+.modal-body .list-group {margin-bottom: 0;}
+.margin-bottom-none { margin-bottom: 0; }
+.modal-body .radio label,.modal-body .checkbox label { display:block; }
+.modal-footer {margin-top: 0px;}
+@media screen and (max-width: 325px){
+    .btn-close {
+        margin-top: 5px;
+        width: 100%;
+    }
+    .btn-results {
+        margin-top: 5px;
+        width: 100%;
+    }
+    .btn-vote{
+        margin-top: 5px;
+        width: 100%;
+    }
+    
+}
+.modal-footer .btn+.btn {
+    margin-left: 0px;
+}
+.progress {
+    margin-right: 10px;
+}
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<!-- End Modal Header Scripts --> 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="j-folder/css/demo.css">
+	<link rel="stylesheet" href="j-folder/css/font-awesome.min.css">
+	<link rel="stylesheet" href="j-folder/css/j-forms.css">
+    <link href="css/landing-page.css" rel="stylesheet">
+    
+    <!-- Scripts -->
+    <script src="j-folder/js/jquery.1.11.1.min.js"></script>
+	<script src="j-folder/js/jquery.maskedinput.min.js"></script>
+    <script src="j-folder/js/j-forms-multistep.js"></script>
+    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -32,7 +75,7 @@
 
 <body>
 
-    <!-- Navigation -->
+<!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
         <div class="container topnav">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -49,13 +92,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
+                        <a href="tel:+1 866-463-3301">Call Us</a>
+                    </li>
+                    <li>
                         <a href="#about">About</a>
                     </li>
                     <li>
                         <a href="#services">Services</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="#eFile">Start an eFile</a>
                     </li>
                 </ul>
             </div>
@@ -64,41 +110,26 @@
         <!-- /.container -->
     </nav>
 
-
-    <!-- Header -->
+<!-- Header -->
     <a name="about"></a>
     <div class="intro-header">
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
                         <h1>Smallclaim.com</h1>
-                        <h3>Turn Your Disputes Into Dollars With Ease!</h3>
+                        <h3>Turn Your Dispute Into Dollars</h3>
+                        <h2>With The Experts of Smallclaim.com</h2>
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li>
-<<<<<<< HEAD
-                                <a href="tel:+1 800-837-0443" class="btn btn-default btn-lg"><i class="fa fa-mobile-phone"></i> <span class="network-name">Speak to an Expert</span></a>
+                                <a href="https://zi261.infusionsoft.com/app/page/contact-for-efile" class="btn btn-default btn-lg"><i class="fa fa-mobile-phone"></i> <span class="network-name">Speak to an Expert About Your Case</span></a>
                             </li>
                             <li>
-                                <a href=" http://smallclaim.com/small-claim-1/?utm_source=AdWords&utm_medium=PPC&utm_term=August&utm_content=efile&utm_campaign=efile-ny" class="btn btn-default btn-lg"><i class="fa fa-list-ol"></i> <span class="network-name">eFile in 15 min.</span></a>
-=======
-<<<<<<< HEAD
-                                <a href="tel:+1 800-837-0443" class="btn btn-default btn-lg"><i class="fa fa-mobile-phone"></i> <span class="network-name">Speak to an Expert</span></a>
+                                <a href=" http://smallclaim.com/small-claim-1/?utm_source=fb&utm_medium=aw_ppc&utm_term=oct&utm_content=efile&utm_campaign=efile" class="btn btn-default btn-lg"><i class="fa fa-list-ol"></i> <span class="network-name">Complete eFile in 15 min.</span></a>
                             </li>
                             <li>
-                                <a href=" http://smallclaim.com/small-claim-1/?utm_source=AdWords&utm_medium=PPC&utm_term=August&utm_content=efile&utm_campaign=efile-ny" class="btn btn-default btn-lg"><i class="fa fa-list-ol"></i> <span class="network-name">eFile in 15 min.</span></a>
-=======
-                                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-mobile-phone"></i> <span class="network-name">Speak to an Expert</span></a>
-                            </li>
-                            <li>
-                                <a href="https://smallclaim.com/small-claim-1/" class="btn btn-default btn-lg"><i class="fa fa-list-ol"></i> <span class="network-name">eFile in 15 min.</span></a>
->>>>>>> gh-pages
->>>>>>> 520593195ee0b11a3a571cfbd2efebc24c311085
-                            </li>
-                            <li>
-                                <a href="http://bit.ly/schedulewithmikek" class="btn btn-default btn-lg"><i class="fa fa-calendar"></i> <span class="network-name">Schedule a Call</span></a>
+                                <a href="http://bit.ly/1POUfx9" class="btn btn-default btn-lg"><i class="fa fa-calendar"></i> <span class="network-name">Start Your Claim Application</span></a>
                             </li>
                         </ul>
                     </div>
@@ -110,19 +141,20 @@
 
     </div>
     <!-- /.intro-header -->
-
-    <!-- Page Content -->
-
-	<a  name="services"></a>
+<!-- Page Content -->
+    <!-- Services Section -->
+	<a  href="" name="services"></a>
     <div class="content-section-a">
-
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Before You've Filed:<br/>We'll Show You Your Options for Free!</h2>
-                    <p class="lead">Let Our Qualified Small Claim Specialists Help You Save Time, Cut High Cost Of Hiring An Attorney, And Realize All Money Owed You To Quickly & Easily </p>
+                    <p class="lead">Let Our Qualified Small Claim Specialists Help You Save Time, Avoid High Attorney Fees, And Help You Get All the Money Owed to You - Quickly & Easily </p>
+                    <h3>
+                        <a href="https://zi261.infusionsoft.com/app/page/contact-for-efile">Learn More</a>
+                    </h3>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="img/Fotolia_51882353_Subscription_Monthly_M-750x750.jpg" alt="">
@@ -134,11 +166,8 @@
 
     </div>
     <!-- /.content-section-a -->
-
     <div class="content-section-b">
-
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
@@ -147,18 +176,18 @@
                     <p class="lead">
                         <ul>
                             <li>Reviewing each case</li> 
-<li>Preparing the small claims documents</li>
-<li>File the claim with the proper court</li>
-<li>Serve the defendant at his/her home or business</li>
-<li>File proof(s) of Services with the court</li></ul>
-<br/>Don't wait any longer, let us help you file your claim and turn your dispute into dollars today!</p>
+                            <li>Preparing the small claims documents</li>
+                            <li>File the claim with the proper court</li>
+                            <li>Serve the defendant at his/her home or business</li>
+                            <li>File proof(s) of Services with the court</li>
+                        </ul>
+                    <br/>Don't wait any longer, let us help you file your claim and turn your dispute into dollars today!</p>
+                    <h3>
+                        <a href="https://zi261.infusionsoft.com/app/page/contact-for-efile">Contact Us</a>
+                    </h3>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-<<<<<<< HEAD
-                    <img class="img-responsive" src="img/Smallclaim-Support-Woman2.png" alt="">
-=======
                     <img class="img-responsive" src="img/Smallclaim Support Woman2.png" alt="">
->>>>>>> gh-pages
                 </div>
             </div>
 
@@ -167,17 +196,17 @@
 
     </div>
     <!-- /.content-section-b -->
-
     <div class="content-section-a">
-
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">After Winning:<br>We Help You Get Your $ </h2>
-                    <p class="lead">Let Our Qualified Small Claim Specialists Help You Save Time, Cut High Cost Of Hiring An Attorney, And Realize All Money Owed You To Quickly & Easily </p>
+                    <p class="lead">This is our specialty! We'll help you track down assets, accounts, individuals and anything else in pursuit of your money! </p>
+                    <h3>
+                        <a href="https://zi261.infusionsoft.com/app/page/contact-for-efile">Contact Us to Learn How</a>
+                    </h3>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="img/judgement-enforcement2.jpg" alt="">
@@ -189,56 +218,58 @@
 
     </div>
     <!-- /.content-section-a -->
-
-    <div class="banner">
-
+    <!-- eFile Section -->
+    <a href="" name="eFile"></a>
+    <div class="intro-header" name="eFile-section">
         <div class="container">
-
             <div class="row">
-                <div class="col-lg-6">
-                    <h2>Contact Us Today:</h2>
-                    <br/>
+                <!-- Begin jQuery Contact and Quiz Modal -->
+                <div class="container">
+	               <div class="row">
+                    <br/><br/><br/>
+                    <h2>Have Plaintiff and Defendant Contact Info?</h2>
+                    <a class="btn btn-primary btn-lg" href="http://smallclaim.com/small-claim-1/?utm_source=fb&utm_medium=fb_ppc&utm_term=sept&utm_content=efile&utm_campaign=efile" target="_blank" name="efileBtn">
+                      5 Minute eFile! 
+                    </a>
+                    <h2>Need Help Filing or Finding Necessary Info?</h2>
+                    <a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#contact" name="modalContactForm" data-original-title>
+                      Contact An Expert, Free!
+                    </a>
+                    <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="contactLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                    <h4 class="panel-title" id="contactLabel"><span class="glyphicon glyphicon-info-sign"></span> Any questions? Feel free to contact us.</h4>
+                                </div>
+                                <div class="modal-body" style="padding: 5px;">
+                                    <form accept-charset="UTF-8" action="https://zi261.infusionsoft.com/app/form/process/50ce6e8722f533e146c79add0bba942e" class="infusion-form" method="POST">
+                                    <input name="inf_form_xid" type="hidden" value="50ce6e8722f533e146c79add0bba942e">
+                                    <input name="inf_form_name" type="hidden" value="Express Landing Page Form">
+                                    <input name="infusionsoft_version" type="hidden" value="1.44.0.47">
+                                    <input class="form-control input-box" id="inf_field_FirstName" type="text" name="inf_field_FirstName" placeholder="First Name">
+                                    <input class="form-control input-box" id="inf_field_LastName" type="text" name="inf_field_LastName" placeholder="Last Name">
+                                    <input class="form-control input-box" id="inf_field_Email" type="email" name="inf_field_Email" placeholder="Your Email">
+                                    <input class="form-control input-box" id="inf_field_Phone1" type="text" name="inf_field_Phone1" placeholder="Phone Number">
+                                     <label for="inf_custom_ServiceSelect"></label>
+                                        <select id="inf_custom_ServiceSelect" name="inf_custom_ServiceSelect"><option value="">Please select one</option><option value="I want to file a new claim.">I want to file a new claim.</option><option value="Done filing need additional help.">Done filing need additional help.</option><option value="Done with trail tracking payments.">Done with trail tracking payments.</option><option value="I'm calling for a consultation">I'm calling for a consultation</option>                                       </select>
+                                    <br />
+                                    <br />
+                                    <div class="infusion-submit">
+                                              <button style="text-align: center;" type="submit" class="btn btn-default" value="Send">Send</button> 
+                                                <button style="float: right;" type="button" class="btn btn-default btn-close" data-dismiss="modal" value="Send">Close</button>                         
+                                    </div>
+                                    </form>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                </div>
-<<<<<<< HEAD
-            <div class="col-lg-8">
-=======
-<<<<<<< HEAD
-            <div class="col-lg-8">
-                     <ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="tel:+1 800-837-0443" class="btn btn-default btn-lg"><i class="fa fa-mobile-phone"></i> <span class="network-name">Speak to an Expert</span></a>
-                            </li>
-                            <li>
-                                <a href=" http://smallclaim.com/small-claim-1/?utm_source=AdWords&utm_medium=PPC&utm_term=August&utm_content=efile&utm_campaign=efile-ny" class="btn btn-default btn-lg"><i class="fa fa-list-ol"></i> <span class="network-name">eFile in 15 min.</span></a>
-=======
-            <div class="col-lg-6">
->>>>>>> 520593195ee0b11a3a571cfbd2efebc24c311085
-                     <ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="tel:+1 800-837-0443" class="btn btn-default btn-lg"><i class="fa fa-mobile-phone"></i> <span class="network-name">Speak to an Expert</span></a>
-                            </li>
-                            <li>
-<<<<<<< HEAD
-                                <a href=" http://smallclaim.com/small-claim-1/?utm_source=AdWords&utm_medium=PPC&utm_term=August&utm_content=efile&utm_campaign=efile-ny" class="btn btn-default btn-lg"><i class="fa fa-list-ol"></i> <span class="network-name">eFile in 15 min.</span></a>
-=======
-                                <a href="https://smallclaim.com/small-claim-1/" class="btn btn-default btn-lg"><i class="fa fa-list-ol"></i> <span class="network-name">eFile in 15 min.</span></a>
->>>>>>> gh-pages
->>>>>>> 520593195ee0b11a3a571cfbd2efebc24c311085
-                            </li>
-                            <li>
-                                <a href="http://bit.ly/schedulewithmikek" class="btn btn-default btn-lg"><i class="fa fa-calendar"></i> <span class="network-name">Schedule a Call</span></a>
-                            </li>
-                        </ul>
-                </div>
-                
             </div>
-                
-                
-            </div>
-        <!-- /.container -->
-    <!-- /.banner -->
-
+        </div>
+    </div>
+    <!-- Contact Section -->
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -266,10 +297,18 @@
             </div>
         </div>
     </footer>
-
+    
+        <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-586XTX"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-586XTX');</script>
+    <!-- End Google Tag Manager -->
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
